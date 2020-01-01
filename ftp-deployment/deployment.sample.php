@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 return [
 	'my site' => [
-		'remote' => 'ftp://user:secretpassword@ftp.example.com/directory',
+		'remote' => 'ftp://user:learnlife4fancz@ftp.learnlife.4fan.cz/',
 		'local' => '.',
 		'test' => false,
 		'ignore' => '
