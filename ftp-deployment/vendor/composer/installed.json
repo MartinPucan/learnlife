@@ -1,0 +1,163 @@
+[
+    {
+        "name": "nette/tester",
+        "version": "v2.3.1",
+        "version_normalized": "2.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/tester.git",
+            "reference": "c3bd1b2c1074dfb957288b716c06aa7b4b5295a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nette/tester/zipball/c3bd1b2c1074dfb957288b716c06aa7b4b5295a8",
+            "reference": "c3bd1b2c1074dfb957288b716c06aa7b4b5295a8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "time": "2019-11-19T13:19:16+00:00",
+        "bin": [
+            "src/tester"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "Nette Tester: enjoyable unit testing in PHP with code coverage reporter. 🍏🍏🍎🍏",
+        "homepage": "https://tester.nette.org",
+        "keywords": [
+            "Xdebug",
+            "assertions",
+            "clover",
+            "code coverage",
+            "nette",
+            "pcov",
+            "phpdbg",
+            "phpunit",
+            "testing",
+            "unit"
+        ]
+    },
+    {
+        "name": "nikic/php-parser",
+        "version": "v4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "9a9981c347c5c49d6dfe5cf826bb882b824080dc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/9a9981c347c5c49d6dfe5cf826bb882b824080dc",
+            "reference": "9a9981c347c5c49d6dfe5cf826bb882b824080dc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "ircmaxell/php-yacc": "0.0.5",
+            "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+        },
+        "time": "2019-11-08T13:50:10+00:00",
+        "bin": [
+            "bin/php-parse"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpParser\\": "lib/PhpParser"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
+        ]
+    },
+    {
+        "name": "phpstan/phpstan",
+        "version": "0.12.3",
+        "version_normalized": "0.12.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpstan/phpstan.git",
+            "reference": "c15a6ea55da71d8133399306f560cfe4d30301b7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c15a6ea55da71d8133399306f560cfe4d30301b7",
+            "reference": "c15a6ea55da71d8133399306f560cfe4d30301b7",
+            "shasum": ""
+        },
+        "require": {
+            "nikic/php-parser": "^4.3.0",
+            "php": "^7.1"
+        },
+        "time": "2019-12-14T13:41:17+00:00",
+        "bin": [
+            "phpstan",
+            "phpstan.phar"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.12-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "PHPStan - PHP Static Analysis Tool"
+    }
+]
