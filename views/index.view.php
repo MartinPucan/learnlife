@@ -8,8 +8,7 @@
 	<title>Learn Life</title>
 </head>
 <body>
-
-
+	
 	<nav class="navbar navbar-expand-lg navbar-dark bg-info">
 		<img src="/img/open-book.png" width="30" height="30" class="d-inline-block align-top" alt="book learnlife">
 	  <a class="navbar-brand px-4" href="#">LearnLife</a>

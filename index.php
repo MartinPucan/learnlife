@@ -2,18 +2,10 @@
 
 	require 'functions.php';
 
-	require 'database/Connection.php';
+	$query = require 'bootstrap.php';
 
-	require 'Task.php';
-
-	// dd($task);
-
-	$pdo = Connection::make();
-
-	$tasks = fetchAllTasks($pdo);
+	$tasks = $query->selectAll('mytodos');
 
 	require 'views/index.view.php';	
-
-
 
 ?>
