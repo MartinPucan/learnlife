@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Problems</title>
+    <title>PHP</title>
 </head>
 <body>
-    <h1>Problems</h1>
+    <h1>PHP</h1>
 
 </body>
 </html>
