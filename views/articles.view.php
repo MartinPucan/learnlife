@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Articles</title>
-</head>
-<body>
+<?php require('partials/header.php'); ?>
+    
     <h1>Articles</h1>
 
-</body>
-</html>
+<?php require('partials/footer.php'); ?>

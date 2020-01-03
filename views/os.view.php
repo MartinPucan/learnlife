@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Operating System</title>
-</head>
-<body>
+<?php require('partials/header.php'); ?>
+        
     <h1>Operating System</h1>
 
-</body>
-</html>
+<?php require('partials/footer.php'); ?>

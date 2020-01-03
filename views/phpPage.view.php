@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>PHP</title>
-</head>
-<body>
+<?php require('partials/header.php'); ?>
+        
     <h1>PHP</h1>
 
-</body>
-</html>
+<?php require('partials/footer.php'); ?>

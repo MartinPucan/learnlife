@@ -1,0 +1,10 @@
+body {
+    background: whitesmoke;
+}
+
+.container {
+    background: white;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+}

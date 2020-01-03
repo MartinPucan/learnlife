@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>English</title>
-</head>
-<body>
+<?php require('partials/header.php'); ?>
 
     <h1>English for beginners</h1>
     <h2>Our love is <?= $name; ?></h2>
 
-</body>
-</html>
+<?php require('partials/footer.php'); ?>
