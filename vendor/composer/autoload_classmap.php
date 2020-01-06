@@ -6,9 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App' => $baseDir . '/core/App.php',
     'ComposerAutoloaderInit5b4f2262fe08e29d4e8350beeefe699d' => $baseDir . '/ftp-deployment/vendor/composer/autoload_real.php',
+    'ComposerAutoloaderInit5c78f6a0484c489ac98e9295af41376b' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $baseDir . '/ftp-deployment/vendor/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInit5b4f2262fe08e29d4e8350beeefe699d' => $baseDir . '/ftp-deployment/vendor/composer/autoload_static.php',
+    'Composer\\Autoload\\ComposerStaticInit5c78f6a0484c489ac98e9295af41376b' => $vendorDir . '/composer/autoload_static.php',
     'Connection' => $baseDir . '/core/database/Connection.php',
     'Deployment\\CliRunner' => $baseDir . '/ftp-deployment/src/Deployment/CliRunner.php',
     'Deployment\\CommandLine' => $baseDir . '/ftp-deployment/src/Deployment/CommandLine.php',

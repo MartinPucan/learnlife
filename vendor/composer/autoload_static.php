@@ -7,9 +7,12 @@ namespace Composer\Autoload;
 class ComposerStaticInit5c78f6a0484c489ac98e9295af41376b
 {
     public static $classMap = array (
+        'App' => __DIR__ . '/../..' . '/core/App.php',
         'ComposerAutoloaderInit5b4f2262fe08e29d4e8350beeefe699d' => __DIR__ . '/../..' . '/ftp-deployment/vendor/composer/autoload_real.php',
+        'ComposerAutoloaderInit5c78f6a0484c489ac98e9295af41376b' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/../..' . '/ftp-deployment/vendor/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit5b4f2262fe08e29d4e8350beeefe699d' => __DIR__ . '/../..' . '/ftp-deployment/vendor/composer/autoload_static.php',
+        'Composer\\Autoload\\ComposerStaticInit5c78f6a0484c489ac98e9295af41376b' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Connection' => __DIR__ . '/../..' . '/core/database/Connection.php',
         'Deployment\\CliRunner' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/CliRunner.php',
         'Deployment\\CommandLine' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/CommandLine.php',

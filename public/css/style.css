@@ -1,9 +1,9 @@
 body {
-    background: whitesmoke;
+    
 }
 
 .container {
-    background: white;
+    background: #f1f1f1;
     border: 1px solid grey;
     padding: 20px;
     border-radius: 5px;
