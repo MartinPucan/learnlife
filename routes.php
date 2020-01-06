@@ -1,9 +1,9 @@
 <?php
 
-    $router->get('', 'controllers/index.php');
-    $router->get('articles', 'controllers/article.php');
+    $router->get('', 'PagesController@home');
+    $router->get('blog', 'PagesController@blog');
     $router->get('english', 'controllers/en.php');
-    $router->get('operating-system', 'controllers/os.php');
-    $router->get('php', 'controllers/phpPage.php');
-    $router->get('problems', 'controllers/problems.php');
     $router->post('names', 'controllers/add-name.php');
+    $router->get('php', 'controllers/phpPage.php');
+    $router->get('problems', 'PagesController@problems');
+    $router->get('operating-system', 'PagesController@os');

@@ -7,7 +7,7 @@
         </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="nav navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="/php">PHP <span class="sr-only">(current)</span></a>
             </li>
@@ -21,7 +21,7 @@
               <a class="nav-link" href="/english">EN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/articles">Articles</a>
+              <a class="nav-link" href="/blog">Blog</a>
             </li>
       </ul>
 

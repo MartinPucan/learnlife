@@ -26,6 +26,7 @@ return array(
     'Deployment\\Server' => $baseDir . '/ftp-deployment/src/Deployment/Server.php',
     'Deployment\\ServerException' => $baseDir . '/ftp-deployment/src/Deployment/ServerException.php',
     'Deployment\\SshServer' => $baseDir . '/ftp-deployment/src/Deployment/SshServer.php',
+    'PagesController' => $baseDir . '/controllers/PagesController.php',
     'PhpParser\\Builder' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/Builder.php',
     'PhpParser\\BuilderFactory' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderFactory.php',
     'PhpParser\\BuilderHelpers' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderHelpers.php',

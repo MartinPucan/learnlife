@@ -27,6 +27,7 @@ class ComposerStaticInit5c78f6a0484c489ac98e9295af41376b
         'Deployment\\Server' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/Server.php',
         'Deployment\\ServerException' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/ServerException.php',
         'Deployment\\SshServer' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/SshServer.php',
+        'PagesController' => __DIR__ . '/../..' . '/controllers/PagesController.php',
         'PhpParser\\Builder' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/Builder.php',
         'PhpParser\\BuilderFactory' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderFactory.php',
         'PhpParser\\BuilderHelpers' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderHelpers.php',
