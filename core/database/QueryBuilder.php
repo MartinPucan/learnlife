@@ -20,7 +20,20 @@ class QueryBuilder
 
     public function insert($table, $parameters)
     {
+        $sql = sprintf(
+            'insert into %s (%s) value (%s)',
+            $table, 
+            implode(', ', array_keys($parameters)),
+            ":" . implode(', :', array_keys($parameters)),
+        );
         
+        try {
+            $statement = $this->pdo->prepare($sql);
+
+            $statement->execute($parameters);
+        } catch (Exception $e) {
+            die('Whoops, something went wrong.');
+        }
     }
 
 }
