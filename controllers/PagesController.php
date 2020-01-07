@@ -1,6 +1,10 @@
 <?php
 declare(strict_types=1);
 
+namespace App\Controllers;
+
+use App\Core\get;
+
 class PagesController
 {
     public function home(): int
@@ -25,5 +29,10 @@ class PagesController
     public function os(): int
     {
         return view('os');
+    }
+
+    public function php(): int 
+    {
+        return view('php');
     }
 }

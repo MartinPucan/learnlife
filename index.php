@@ -2,8 +2,10 @@
 declare(strict_types=1);
 
 require 'vendor/autoload.php';
+require 'core/bootstrap.php';
 
-$database = require 'core/bootstrap.php';
+use App\Core\{Router, Request};
+
 
 Router::load('routes.php')
 	->direct(Request::uri(), Request::method());

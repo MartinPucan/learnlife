@@ -6,7 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App' => $baseDir . '/core/App.php',
+    'App\\Controllers\\PagesController' => $baseDir . '/controllers/PagesController.php',
+    'App\\Core\\App' => $baseDir . '/core/App.php',
+    'App\\Core\\Request' => $baseDir . '/core/Request.php',
+    'App\\Core\\Router' => $baseDir . '/core/Router.php',
     'ComposerAutoloaderInit5b4f2262fe08e29d4e8350beeefe699d' => $baseDir . '/ftp-deployment/vendor/composer/autoload_real.php',
     'ComposerAutoloaderInit5c78f6a0484c489ac98e9295af41376b' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $baseDir . '/ftp-deployment/vendor/composer/ClassLoader.php',
@@ -26,7 +29,6 @@ return array(
     'Deployment\\Server' => $baseDir . '/ftp-deployment/src/Deployment/Server.php',
     'Deployment\\ServerException' => $baseDir . '/ftp-deployment/src/Deployment/ServerException.php',
     'Deployment\\SshServer' => $baseDir . '/ftp-deployment/src/Deployment/SshServer.php',
-    'PagesController' => $baseDir . '/controllers/PagesController.php',
     'PhpParser\\Builder' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/Builder.php',
     'PhpParser\\BuilderFactory' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderFactory.php',
     'PhpParser\\BuilderHelpers' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderHelpers.php',
@@ -250,8 +252,6 @@ return array(
     'PhpParser\\PrettyPrinterAbstract' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
     'PhpParser\\PrettyPrinter\\Standard' => $baseDir . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
     'QueryBuilder' => $baseDir . '/core/database/QueryBuilder.php',
-    'Request' => $baseDir . '/core/Request.php',
-    'Router' => $baseDir . '/core/Router.php',
     'Tester\\Assert' => $baseDir . '/ftp-deployment/vendor/nette/tester/src/Framework/Assert.php',
     'Tester\\AssertException' => $baseDir . '/ftp-deployment/vendor/nette/tester/src/Framework/AssertException.php',
     'Tester\\CodeCoverage\\Collector' => $baseDir . '/ftp-deployment/vendor/nette/tester/src/CodeCoverage/Collector.php',

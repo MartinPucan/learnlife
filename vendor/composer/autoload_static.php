@@ -7,7 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit5c78f6a0484c489ac98e9295af41376b
 {
     public static $classMap = array (
-        'App' => __DIR__ . '/../..' . '/core/App.php',
+        'App\\Controllers\\PagesController' => __DIR__ . '/../..' . '/controllers/PagesController.php',
+        'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
+        'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
         'ComposerAutoloaderInit5b4f2262fe08e29d4e8350beeefe699d' => __DIR__ . '/../..' . '/ftp-deployment/vendor/composer/autoload_real.php',
         'ComposerAutoloaderInit5c78f6a0484c489ac98e9295af41376b' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/../..' . '/ftp-deployment/vendor/composer/ClassLoader.php',
@@ -27,7 +30,6 @@ class ComposerStaticInit5c78f6a0484c489ac98e9295af41376b
         'Deployment\\Server' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/Server.php',
         'Deployment\\ServerException' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/ServerException.php',
         'Deployment\\SshServer' => __DIR__ . '/../..' . '/ftp-deployment/src/Deployment/SshServer.php',
-        'PagesController' => __DIR__ . '/../..' . '/controllers/PagesController.php',
         'PhpParser\\Builder' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/Builder.php',
         'PhpParser\\BuilderFactory' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderFactory.php',
         'PhpParser\\BuilderHelpers' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/BuilderHelpers.php',
@@ -251,8 +253,6 @@ class ComposerStaticInit5c78f6a0484c489ac98e9295af41376b
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
         'QueryBuilder' => __DIR__ . '/../..' . '/core/database/QueryBuilder.php',
-        'Request' => __DIR__ . '/../..' . '/core/Request.php',
-        'Router' => __DIR__ . '/../..' . '/core/Router.php',
         'Tester\\Assert' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nette/tester/src/Framework/Assert.php',
         'Tester\\AssertException' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nette/tester/src/Framework/AssertException.php',
         'Tester\\CodeCoverage\\Collector' => __DIR__ . '/../..' . '/ftp-deployment/vendor/nette/tester/src/CodeCoverage/Collector.php',
