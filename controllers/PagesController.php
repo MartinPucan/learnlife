@@ -1,27 +1,28 @@
 <?php
+declare(strict_types=1);
 
 class PagesController
 {
-    public function home()
+    public function home(): int
     {
         $users = App::get('database')->selectAll('users');
 
-        return view('index', ['users' => $users]);
+        return viewData('index', ['users' => $users]);
     }
 
-    public function blog()
+    public function blog(): int
     {
         $name = 'Blog';
 
         return view('blog');  
     }
 
-    public function problems()
+    public function problems(): int
     {
         return view('problems');
     }
 
-    public function os()
+    public function os(): int
     {
         return view('os');
     }

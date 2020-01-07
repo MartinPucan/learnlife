@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 class Router 
 {
@@ -7,7 +8,7 @@ class Router
         'POST' => []
     ];
 
-    public static function load($file)
+    public static function load(string  $file): object
     {
         $router = new static;
 
@@ -15,17 +16,17 @@ class Router
 
         return $router;
     }
-    public function get($uri, $controller)
+    public function get(string $uri, string $controller)
     {
         $this->routes['GET'][$uri] = $controller;
     } 
 
-    public function post($uri, $controller)
+    public function post(string $uri, string $controller)
     {
         $this->routes['POST'][$uri] = $controller;
     } 
 
-    public function direct($uri, $requestType) // requestType equals to POST or GET, ...
+    public function direct(string $uri, string $requestType): int // requestType equals to POST or GET, ...
     {
         if (array_key_exists($uri, $this->routes[$requestType])) {
             return $this->callAction(
@@ -36,7 +37,7 @@ class Router
         throw new Exception("No route defined for this URI.");
     }
 
-    protected function callAction($controller, $action) 
+    protected function callAction(string $controller, string $action): int
     {
         $controller = new $controller;
 
