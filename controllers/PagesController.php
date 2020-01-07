@@ -33,6 +33,11 @@ class PagesController
 
     public function php(): int 
     {
-        return view('php');
+        return view('phpPage');
+    }
+
+    public function english(): int
+    {
+        return view('en');
     }
 }
